@@ -9,3 +9,14 @@
 .emphasis{
   background-color: goldenrod;
 }
+
+img{
+  float: left;
+  width: 25%;
+}
+
+.sidebar{
+  float: left;
+  background-color: aquamarine;
+  width: 30%;
+}
