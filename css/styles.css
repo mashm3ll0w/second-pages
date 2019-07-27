@@ -1,27 +1,6 @@
-.important{
-  color: maroon;
-}
-
-.unimportant{
-  color: blue;
-}
-
-.emphasis{
-  background-color: goldenrod;
-}
-
-img{
-  float: left;
-  width: 25%;
-}
-
-.sidebar{
-  float: left;
-  background-color: aquamarine;
-  width: 30%;
-}
-
-.column{
-  width: 350px;
-  float: left;
+.test-box{
+  border: 2px solid red;
+  padding: 2rem;
+  margin: 1.5rem;
+  background-color: chocolate;
 }
