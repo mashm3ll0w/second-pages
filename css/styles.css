@@ -1,33 +1,60 @@
-.important{
-  padding: 20px;
-  color: maroon;
+.important {
+	padding: 20px;
+	color: maroon;
 }
 
-.unimportant{
-  padding: 20px;
-  color: blue;
+.unimportant {
+	padding: 20px;
+	color: blue;
 }
 
-.emphasis{
-  background-color: goldenrod;
+.emphasis {
+	background-color: goldenrod;
 }
 
-img{
-  float: left;
-  width: 25%;
-  margin: 20px;
+img {
+	float: left;
+	width: 25%;
+	margin: 20px;
 }
 
-.sidebar{
-  padding: 10px;
-  margin: 10px;
-  float: left;
-  background-color: aquamarine;
-  width: 30%;
+.sidebar {
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	background-color: aquamarine;
+	width: 30%;
 }
 
-.column{
-  width: 350px;
-  float: left;
-  margin: 40px;
+.column {
+	width: 350px;
+	float: left;
+	margin: 40px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body{
+    background-color: darkkhaki;
+    color: darkslategray;
+    text-align: center;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+  }
+  .important{
+    color: purple;
+    font-weight: bold;
+  }
+  .unimportant{
+    color: rgb(51, 0, 24);
+    font-style: italic;
+  }
+  .column{
+    color: black;
+    width: 95%;
+    margin: 20px;
+    padding: 10px;
+  }
 }
