@@ -1,8 +1,10 @@
 .important{
+  padding: 20px;
   color: maroon;
 }
 
 .unimportant{
+  padding: 20px;
   color: blue;
 }
 
@@ -13,9 +15,12 @@
 img{
   float: left;
   width: 25%;
+  margin: 20px;
 }
 
 .sidebar{
+  padding: 10px;
+  margin: 10px;
   float: left;
   background-color: aquamarine;
   width: 30%;
@@ -24,4 +29,5 @@ img{
 .column{
   width: 350px;
   float: left;
+  margin: 40px;
 }
