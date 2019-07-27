@@ -1,33 +1,15 @@
-.important{
-  padding: 20px;
-  color: maroon;
+.cats p{
+  background-color: coral;
 }
 
-.unimportant{
-  padding: 20px;
-  color: blue;
+.dogs p{
+  background-color: steelblue;
 }
 
-.emphasis{
-  background-color: goldenrod;
+.cats p a{
+  font-weight: bold;
 }
 
-img{
-  float: left;
-  width: 25%;
-  margin: 20px;
-}
-
-.sidebar{
-  padding: 10px;
-  margin: 10px;
-  float: left;
-  background-color: aquamarine;
-  width: 30%;
-}
-
-.column{
-  width: 350px;
-  float: left;
-  margin: 40px;
+.dogs p a{
+  font-style: italic;
 }
